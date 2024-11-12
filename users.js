@@ -26,4 +26,4 @@ const users = [
 ]
 
 const filteredUsers = users.filter((user) => user.age > 25);
-console.log(filteredUsers)
+filteredUsers.map(filteredUser => console.log(filteredUser.name));
